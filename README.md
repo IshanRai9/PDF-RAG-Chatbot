@@ -1,7 +1,7 @@
 
 ---
 
-# PDF RAG Chatbot
+# 📄 PDF RAG Chatbot
 
 A chatbot that allows users to upload PDFs and query their content using a Retrieval-Augmented Generation (RAG) approach. This project is designed for **local use** and does not require Docker.
 
@@ -95,10 +95,9 @@ Only new chunks (those not already in the database) are added to the database.
 
 ```
 pdf-rag-chatbot/
-│   query_data.py               # Main application which accepts query
-│   populate_database.py        # PDF processing and RAG pipeline
-│   get_embedding_function.py   # Model Embedding
-├── tests_rag.py                # Unit tests
+├── query_data.py               # Main application which accepts query
+├── populate_database.py        # PDF processing and RAG pipeline
+├── get_embedding_function.py   # Model Embedding
 ├── requirements.txt            # Python dependencies
 └── README.md                   # This file
 ```
