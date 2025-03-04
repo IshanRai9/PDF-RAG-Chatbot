@@ -88,7 +88,7 @@ Only new chunks (those not already in the database) are added to the database.
    - The user's question is embedded into a vector.
    - Relevant chunks are retrieved from the chroma database.
    - The LLM generates an answer using the retrieved context.
-<img=https://media.discordapp.net/attachments/856532129381613578/1346420408487772191/Screenshot_53.png?ex=67c81f38&is=67c6cdb8&hm=13d281abcd38845b74812e784d30777852e2761699f95c7018220eccaa5735ea&=&format=webp&quality=lossless>
+   <img src=https://media.discordapp.net/attachments/856532129381613578/1346420408487772191/Screenshot_53.png?ex=67c81f38&is=67c6cdb8&hm=13d281abcd38845b74812e784d30777852e2761699f95c7018220eccaa5735ea&=&format=webp&quality=lossless>
 ---
 
 ## 📂 Project Structure
@@ -122,9 +122,9 @@ pytest test_rag.py
    -After Downloading:
    ```bash
    ollama serve
-   ollama pull deepseek-r1:8b
+   ollama pull mistral
    ```
-   - Deepseek-r1:8b model is the one I have used, pull and change the code according to your needs.
+   - Mistral model is the one I have used, pull and change the code according to your needs.
 
 ### 2. **Missing Dependencies**
    - Ensure all dependencies are installed:
@@ -156,7 +156,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 - [LangChain](https://www.langchain.com/) for the RAG pipeline.
 - [Ollama](https://ollama.com/) for the LLMs.
-- [DeepSeek-R1](https://ollama.com/library/deepseek-r1) for the deepseek-r1:8b model.
+- [Mistral](https://ollama.com/library/mistral) for the Mistral model.
 
 ---
 
