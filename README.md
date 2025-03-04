@@ -20,10 +20,9 @@ A chatbot that allows users to upload PDFs and query their content using a Retri
 
 - **Text Extraction**: `PyMuPDF`
 - **Text Splitting**: `LangChain`
-- **Embeddings**: `sentence-transformers/all-MiniLM-L6-v2`
-- **Vector Store**: `FAISS`
-- **LLM**: `OpenAI GPT-3.5-turbo` (or HuggingFace `Llama 2` for local use)
-- **UI**: `Gradio`
+- **Embeddings**: `from langchain_ollama import OllamaEmbeddings`
+- **Vector Store**: `Chroma Database`
+- **LLM**: Ollama `deepseek-r1:8b` for local use
 
 ---
 
@@ -56,9 +55,16 @@ A chatbot that allows users to upload PDFs and query their content using a Retri
 
 ---
 
+4. Install Ollama:
+   - https://ollama.com/
+   - Start Ollama if not started and pull the model to use (Deepseek-r1 in my case):
+   ```bash
+   ollama serve
+   ollama pull deepseek-r1:8b
+   ```
 ### Running the Application
 
-1. Populate the database with the new pdf:
+1. Vectorize the pdf in the database:
     ```bash
    python populate_database.py
    ```
