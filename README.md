@@ -55,6 +55,13 @@ A chatbot that allows users to upload PDFs and query their content using a Retri
 
 ---
 
+4. Install Ollama:
+   - https://ollama.com/
+   - Start Ollama if not started and pull the model to use (Deepseek-r1 in my case):
+   ```bash
+   ollama serve
+   ollama pull deepseek-r1:8b
+   ```
 ### Running the Application
 
 1. Vectorize the pdf in the database:
