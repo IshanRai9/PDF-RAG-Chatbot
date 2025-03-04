@@ -1,0 +1,10 @@
+pypdf
+langchain
+chromadb
+pytest
+boto3
+openai
+tiktoken
+#-U langchain-community
+#-qU "langchain-chroma>=0.1.2"
+#-qU langchain-ollama
