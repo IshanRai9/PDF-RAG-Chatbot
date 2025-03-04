@@ -88,7 +88,7 @@ Only new chunks (those not already in the database) are added to the database.
    - The user's question is embedded into a vector.
    - Relevant chunks are retrieved from the chroma database.
    - The LLM generates an answer using the retrieved context.
-   <img src=https://media.discordapp.net/attachments/856532129381613578/1346420408487772191/Screenshot_53.png?ex=67c81f38&is=67c6cdb8&hm=13d281abcd38845b74812e784d30777852e2761699f95c7018220eccaa5735ea&=&format=webp&quality=lossless>
+   <img src="https://media.discordapp.net/attachments/856532129381613578/1346420408487772191/Screenshot_53.png?ex=67c81f38&is=67c6cdb8&hm=13d281abcd38845b74812e784d30777852e2761699f95c7018220eccaa5735ea&=&format=webp&quality=lossless" alt="flowchart">
 ---
 
 ## 📂 Project Structure
