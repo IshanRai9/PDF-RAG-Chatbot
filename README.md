@@ -105,15 +105,6 @@ pdf-rag-chatbot/
 
 ---
 
-## 🧪 Testing
-
-To run unit tests:
-```bash
-pytest test_rag.py
-```
-
----
-
 ## 🚨 Troubleshooting
 
 ### 1. **Ollama Not Dowloaded**
