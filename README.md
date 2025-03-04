@@ -45,9 +45,6 @@ A chatbot that allows users to upload PDFs and query their content using a Retri
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
-   pip install -U langchain-community
-   pip install -qU "langchain-chroma>=0.1.2"
-   pip install -qU langchain-ollama
    ```
 
 3. Add your pdf in data/:
